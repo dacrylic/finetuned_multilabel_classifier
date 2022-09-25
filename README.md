@@ -1,6 +1,12 @@
+## Model fine-tuning for multilabel classification
+
 This repository aims to document and describe the process required to fine-tune a multi-label classifier based on the BERT-base-cased model (https://huggingface.co/bert-base-cased) from the huggingface repository.
 
 The data that will be used is the Steam Store Games (Clean dataset) from Kaggle (https://www.kaggle.com/datasets/nikdavis/steam-store-games), and will utilise game descriptions to classify each game into respective game labels.
+
+**Full script can be found in classifier_proj2.py**
+
+**Dataset to be used is steam_with_description.csv**
 
 For this classification task, we will utilise a fine-tuned Transformers (bert-based-cased) model with the 
 PyTorch Lightning framework for multi label classification of the games description. Model fine-tuning was done 
