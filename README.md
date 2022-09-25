@@ -9,8 +9,8 @@ The data that will be used is the Steam Store Games (Clean dataset) from Kaggle 
 **Dataset to be used is steam_with_description.csv**
 
 For this classification task, we will utilise a fine-tuned Transformers (bert-based-cased) model with the 
-PyTorch Lightning framework for multi label classification of the games description. Model fine-tuning was done 
-locally on a laptop equipped with a Ryzen9 5900HX processor, 32GB ram, and a Nvidia RTX3080 GPU with 16GB 
+PyTorch Lightning framework for multi label classification of the games description. Example model fine-tuning was run locally
+a laptop equipped with a Ryzen9 5900HX processor, 32GB ram, and a Nvidia RTX3080 GPU with 16GB 
 VRAM, utilising the PyCharm IDE.
 
 The main libraries that used are: 
