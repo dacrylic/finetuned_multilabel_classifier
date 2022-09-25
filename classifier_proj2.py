@@ -348,7 +348,8 @@ trainer = pl.Trainer(max_epochs = N_EPOCHS , gpus = 1, callbacks=[checkpoint_cal
 # Train the Classifier Model
 trainer.fit(model, QTdata_module)
 
-
+# Retreiving checkpoint path for best model
+model_path = checkpoint_callback.best_model_path
 
 # Evaluate the model performance on the test dataset
 trainer.test(model,datamodule=QTdata_module)
